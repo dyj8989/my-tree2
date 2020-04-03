@@ -1,0 +1,19 @@
+  {
+  "departments":[
+    { "id": 1, "label": "技术部", "parentId": 0 },
+    { "id": 2, "label": "开发部", "parentId": 1 },
+    { "id": 3, "label": "测试", "parentId": 1 },
+    { "id": 4, "label": "市场部", "parentId": 0 },
+    { "id": 5, "label": "运营", "parentId": 0 },
+    { "id": 6, "label": "客服", "parentId": 5 },
+    { "id": 7, "label": "外贸", "parentId": 5 }
+  ],
+  "employees":[
+    { "id": 10001, "label": "张三", "parentId": 2 },
+    { "id": 10002, "label": "李四", "parentId": 6 },
+    { "id": 10003, "label": "王五", "parentId": 4 },
+    { "id": 10004, "label": "小王", "parentId": 3 },
+    { "id": 10005, "label": "小赵", "parentId": 7 },
+    { "id": 10006, "label": "John", "parentId": 2 }
+  ]
+}
